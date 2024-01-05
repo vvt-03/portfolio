@@ -1,0 +1,118 @@
+/* Reset and default styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f9fa;
+}
+
+/* Navigation Bar styles */
+.navbar {
+    background-color: #a04142; /* Pink-Rosewood */
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 24px;
+}
+
+.navbar-toggler-icon {
+    color: #fff;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 15px;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #fff !important;
+}
+
+/* Header styles */
+header {
+    background-color: #a04142; /* Pink-Rosewood */
+    color: #fff;
+    padding: 80px 0;
+}
+
+header h1 {
+    font-size: 3em;
+}
+h2 {
+    text-align: justify;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Image styles */
+.img-fluid {
+    width:50%;
+    height: 50%;;
+    
+}
+
+/* Smaller logo styles */
+.smaller-logo {
+    width: 75%; /* Adjust the maximum width as needed */
+}
+
+/* About section styles */
+#about {
+    padding: 80px 0;
+}
+
+#about img {
+    border: 8px solid #a04142; /* Pink-Rosewood */
+}
+
+#about h2 {
+    color: #151e3e; /* Blue-Denim */
+}
+
+/* Projects section styles */
+.btn.btn-primary {
+    background-color: #a04142; /* Rosewood Pink */
+    border-color: #a04142; /* Rosewood Pink */
+}
+
+.btn.btn-primary:hover {
+    background-color: #871c1e; /* Darker shade on hover */
+    border-color: #871c1e; /* Darker shade on hover */
+}
+
+/* Contact section styles */
+#contact {
+    padding: 80px 0;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+    color: #a01959; /* Purple-Magenta */
+}
+
+/* Footer styles */
+footer {
+    background-color: #151e3e; /* Blue-Denim */
+    color: #fff;
+    padding: 20px 0;
+}
+
+/* Animation styles */
+.animate__animated {
+    animation-duration: 1s;
+}
